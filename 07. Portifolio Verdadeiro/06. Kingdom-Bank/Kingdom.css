@@ -1,0 +1,29 @@
+*{
+    color: whitesmoke;
+}
+.in{
+    border-radius: 0%;
+}
+#home {
+    color: whitesmoke;
+    
+}
+.sec{
+    height: 500px;
+    width: 100%;
+    background: url(./img/funfo.webp) center no-repeat ;
+}
+.esp{
+    padding: 60px 0;
+    border-bottom: 1px solid white;
+}
+.bor{
+    border-bottom: 1px solid whitesmoke;
+}
+.tex{
+    padding-top: 100px;
+    padding-left: 50px;
+}
+body{
+    background-color: black;
+}
