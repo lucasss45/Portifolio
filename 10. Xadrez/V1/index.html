@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xadrez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Chess</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-8 offset-2">
+                <div class="row">
+                    <div class="col square white" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♜">&#9814;</span>
+                    </div>
+                    <div class="col square black" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♞">&#9816;</span>
+                    </div>
+                    <div class="col square white" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♝">&#9815;</span>
+                    </div>
+                    <div class="col square black" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♛">&#9813;</span>
+                    </div>
+                    <div class="col square white" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♚">&#9812;</span>
+                    </div>
+                    <div class="col square black" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♝">&#9815;</span>
+                    </div>
+                    <div class="col square white" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♞">&#9816;</span>
+                    </div>
+                    <div class="col square black" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♜">&#9814;</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col square black" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♟">&#9817;</span>
+                    </div>
+                    <div class="col square white" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♟">&#9817;</span>
+                    </div>
+                    <div class="col square black" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♟">&#9817;</span>
+                    </div>
+                    <div class="col square white" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♟">&#9817;</span>
+                    </div>
+                    <div class="col square black" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♟">&#9817;</span>
+                    </div>
+                    <div class="col square white" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♟">&#9817;</span>
+                    </div>
+                    <div class="col square black" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♟">&#9817;</span>
+                    </div>
+                    <div class="col square white" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♟">&#9817;</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col square white" onclick="handlePieceClick(this)"></div>
+                    <div class="col square black" onclick="handlePieceClick(this)"></div>
+                    <div class="col square white" onclick="handlePieceClick(this)"></div>
+                    <div class="col square black" onclick="handlePieceClick(this)"></div>
+                    <div class="col square white" onclick="handlePieceClick(this)"></div>
+                    <div class="col square black" onclick="handlePieceClick(this)"></div>
+                    <div class="col square white" onclick="handlePieceClick(this)"></div>
+                    <div class="col square black" onclick="handlePieceClick(this)"></div>
+                </div>
+                <div class="row">
+                    <div class="col square black" onclick="handlePieceClick(this)"></div>
+                    <div class="col square white" onclick="handlePieceClick(this)"></div>
+                    <div class="col square black" onclick="handlePieceClick(this)"></div>
+                    <div class="col square white" onclick="handlePieceClick(this)"></div>
+                    <div class="col square black" onclick="handlePieceClick(this)"></div>
+                    <div class="col square white" onclick="handlePieceClick(this)"></div>
+                    <div class="col square black" onclick="handlePieceClick(this)"></div>
+                    <div class="col square white" onclick="handlePieceClick(this)"></div>
+                </div>
+                <div class="row">
+                    <div class="col square white" onclick="handlePieceClick(this)"></div>
+                    <div class="col square black" onclick="handlePieceClick(this)"></div>
+                    <div class="col square white" onclick="handlePieceClick(this)"></div>
+                    <div class="col square black" onclick="handlePieceClick(this)"></div>
+                    <div class="col square white" onclick="handlePieceClick(this)"></div>
+                    <div class="col square black" onclick="handlePieceClick(this)"></div>
+                    <div class="col square white" onclick="handlePieceClick(this)"></div>
+                    <div class="col square black" onclick="handlePieceClick(this)"></div>
+                </div>
+                <div class="row">
+                    <div class="col square black" onclick="handlePieceClick(this)"></div>
+                    <div class="col square white" onclick="handlePieceClick(this)"></div>
+                    <div class="col square black" onclick="handlePieceClick(this)"></div>
+                    <div class="col square white" onclick="handlePieceClick(this)"></div>
+                    <div class="col square black" onclick="handlePieceClick(this)"></div>
+                    <div class="col square white" onclick="handlePieceClick(this)"></div>
+                    <div class="col square black" onclick="handlePieceClick(this)"></div>
+                    <div class="col square white" onclick="handlePieceClick(this)"></div>
+                </div>
+                
+               
+                    <div class="row">
+                        <div class="col square white" onclick="handlePieceClick(this)">
+                            <span class="piece" data-piece="♙">&#9823;</span>
+                        </div>
+                        <div class="col square black" onclick="handlePieceClick(this)">
+                            <span class="piece" data-piece="♙">&#9823;</span>
+                        </div>
+                        <div class="col square white" onclick="handlePieceClick(this)">
+                            <span class="piece" data-piece="♙">&#9823;</span>
+                        </div>
+                        <div class="col square black" onclick="handlePieceClick(this)">
+                            <span class="piece" data-piece="♙">&#9823;</span>
+                        </div>
+                        <div class="col square white" onclick="handlePieceClick(this)">
+                            <span class="piece" data-piece="♙">&#9823;</span>
+                        </div>
+                        <div class="col square black" onclick="handlePieceClick(this)">
+                            <span class="piece" data-piece="♙">&#9823;</span>
+                        </div>
+                        <div class="col square white" onclick="handlePieceClick(this)">
+                            <span class="piece" data-piece="♙">&#9823;</span>
+                        </div>
+                        <div class="col square black" onclick="handlePieceClick(this)">
+                            <span class="piece" data-piece="♙">&#9823;</span>
+                        </div>
+                    </div>
+                <div class="row">
+                    <div class="col square black" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♖">&#9814;</span>
+                    </div>
+                    <div class="col square white" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♘">&#9816;</span>
+                    </div>
+                    <div class="col square black" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♗">&#9815;</span>
+                    </div>
+                    <div class="col square white" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♕">&#9813;</span>
+                    </div>
+                    <div class="col square black" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♔">&#9812;</span>
+                    </div>
+                    <div class="col square white" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♗">&#9815;</span>
+                    </div>
+                    <div class="col square black" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♘">&#9816;</span>
+                    </div>
+                    <div class="col square white" onclick="handlePieceClick(this)">
+                        <span class="piece" data-piece="♖">&#9814;</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            let selectedPiece = null;
+let selectedSquare = null;
+let isWhiteTurn = true;
+
+function handlePieceClick(square) {
+    const piece = square.querySelector('.piece');
+
+    if (selectedPiece) {
+        if (square === selectedSquare) {
+            // Deselecionar a peça
+            square.classList.remove('selected');
+            selectedPiece = null;
+            selectedSquare = null;
+        } else {
+            const attacker = selectedPiece.getAttribute('data-piece');
+            const defender = piece ? piece.getAttribute('data-piece') : null;
+            if (isValidMove(attacker, defender) && isTurnValid(attacker)) {
+                // Movimento válido - mover a peça
+                square.innerHTML = '';
+                square.appendChild(selectedPiece);
+                if (defender) {
+                    // Peça capturada
+                    selectedSquare.innerHTML = '';
+                    square.appendChild(piece);
+                }
+                square.classList.remove('selected');
+                selectedPiece = null;
+                selectedSquare = null;
+                isWhiteTurn = !isWhiteTurn; // Alternar o turno
+            }
+        }
+    } else {
+        if (piece && isTurnValid(piece.getAttribute('data-piece'))) {
+            // Selecionar a peça
+            square.classList.add('selected');
+            selectedPiece = piece;
+            selectedSquare = square;
+        }
+    }
+}
+
+function isValidMove(attacker, defender) {
+    // Implemente as regras de movimento aqui
+    // Exemplo: permitir o movimento apenas se a casa de destino estiver vazia ou ocupada por uma peça adversária
+    return !defender || isCaptureValid(attacker, defender);
+}
+
+function isCaptureValid(attacker, defender) {
+    // Implemente as regras de captura aqui
+    // Exemplo: permitir a captura apenas se o atacante for uma peça branca e o defensor for uma peça preta, e vice-versa
+    return (isWhiteTurn && attacker !== defender) || (!isWhiteTurn && attacker !== defender);
+}
+
+function isTurnValid(pieceColor) {
+    // Verificar se é a vez da cor da peça
+    return (isWhiteTurn && pieceColor === '♙' || pieceColor === '♖' || pieceColor === '♘' || pieceColor === '♗' || pieceColor === '♕' || pieceColor === '♔') ||
+        (!isWhiteTurn && pieceColor === '♟' || pieceColor === '♜' || pieceColor === '♞' || pieceColor === '♝' || pieceColor === '♛' || pieceColor === '♚');
+}
+
+</script>
+    </div>
+</body>
+
+</html>
+
+
+    
+
