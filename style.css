@@ -28,7 +28,9 @@
     border-bottom: 1px solid whitesmoke;
 }
 .h{
-  font: weight 50px; 
+  font-size: 100px; 
+  margin-top: 7%;
+  z-index: 2;
 }
 .tex{
     padding-top: 100px;
@@ -163,7 +165,7 @@ body{
     transition: color .12s linear;
   }
   .list:hover{
-    color: #fe5000;
+    color: #08fdd8;
   }
   .ti{
     font-size: 20px;
@@ -190,14 +192,25 @@ body{
   @media (max-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
+      margin-top: 20%;
     }
   }
   @media (max-width: 988px) {
-    h {
+    .h {
       font: weight 50px; 
-      font-size: 33px;
+      font-size: 80px;
+      margin-top: 30%;
     }
   }
+  @media (max-width: 530px) {
+    .h {
+      font: weight 50px; 
+      font-size: xx-large;
+      margin-top: 65%;
+      font-size: 56px;
+    }
+  }
+
 
   .b-example-divider {
     width: 100%;
@@ -258,6 +271,8 @@ body{
   }
 /* teste*/
 .txt{
+  margin-top: 30px;
+  margin-bottom: 20px;
   font-size: 14px;
   line-height: 2.14;
   letter-spacing: -.3px;
@@ -378,10 +393,10 @@ body{
 .but{
   background-color: #bcfff7;
   color: #2a2a2a;
-  margin-bottom: 50%;
   height: 56px;
   border: none;
-  width: 50%;
+  width: 60%;
+  height: 65px;
   transition: all .8s;
 }
 .butao{
@@ -403,4 +418,109 @@ body{
 }
 
 /* bubles */
+
+/*sobre-mim*/
+.apresentacao{
+  padding: 5% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 82px;
+}
+.apresentacaoconteudo{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.apresentacaoconteudotitulo{
+  font-size: 2.25rem;
+  font-family: #000000;
+}
+.titulodestaque{
+  color: #08fdd8;
+}
+.apresentacaoconteudotexto{
+  font-size: 1.5rem;
+  color: #c4bebe;
+  font-family: var(--fonte-secundaria);
+}
+
+.apresentacaolinks{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+.apresentacaolinkssubtitulo{
+  font-family: #000000;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.apresentacaolinksnavegacao{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  border: 2px solid #08fdd8;
+  width: 69%;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 21.5px 0;
+  text-decoration: none;
+  color: whitesmoke;
+}
+.apresentacaolinkslink:hover{
+  background-color: #272727;
+}
+.apresentacaoimagem{
+  width: 50%;
+}
+/*sobre-mim*/
+
+
+/*efeito*/
+
+.sobrea {
+  position: relative;
+  transition: all .35s;
+}
+.sobrea span {
+  position: relative;
+  z-index: 2;
+}
+.sobrea:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: black;
+  transition: all .35s;
+}  
+a span:hover{
+  color: #08fdd8;
+}
+.sobrea:hover:after{
+  width: 100%;
+}
+/*efeito*/
+
+
+
+/*responsive*/
+@media (max-width: 1200px) {
+  .apresentacao{
+      flex-direction: column-reverse;
+      padding: 5%;
+  }
+  .apresentacaoconteudo{
+      width: auto;
+  }
+}
+/*responsive*/
 
