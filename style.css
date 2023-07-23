@@ -279,6 +279,9 @@ body{
   color: #666;
   transition: color .12s linear;
 }
+.card-text{
+  color: whitesmoke;
+}
 .descricao {
   padding:2px;
   line-height:20px;
